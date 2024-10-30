@@ -13,6 +13,11 @@ p {
     color: rgba(255, 111, 0, 0.85);
 }
 
+#label-container {
+    color: #fff;
+    font-size: 22px;
+}
+
 video {
     display: block;
 }
@@ -21,7 +26,7 @@ section {
     display: block;
     opacity: 1;
     transition: opacity 500ms ease-in-out;
-    margin: 0 auto;
+    margin: 15px auto;
     width: 50%;
 }
 
@@ -56,4 +61,10 @@ section {
     border: 1px dashed #fff;
     z-index: 1;
     position: absolute;
+}
+
+#progress {
+    height: 20px;
+    width: 500px;
+    display: flex;
 }
